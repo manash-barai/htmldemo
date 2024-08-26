@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marquefont {
+    font-size: 18px;
+    color: wheat;
+}
+
+.bg-green {
+    background: rgb(134, 189, 109);
+}
+
+.bg-orange {
+    background: rgb(233, 161, 98);
+}
+
+.bg-red {
+    background: rgb(225, 89, 86);
+}
+
+.title {
+    width: 90%;
+
+}
+
+.title h4,
+.title p,
+.title h5 {
+
+    text-shadow: 1px 2px 3px black;
+}
+
+.bg-black {
+    background: rgb(53, 52, 52);
+}
+
+.bg-purple {
+    background: rgb(166, 72, 169);
+}
+
+.crousalHeight {
+    height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+    .crousalHeight {
+        height: 400px;
+    }
+  }
+
+
+.text-white a {
+    color: white;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee-content 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee-content {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.worlSchoolImg {
+    width: 100%;
+    height: 100%;
+}
+
+.worlSchoolImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-purple {
+    color: rgb(165, 40, 165);
+}
+
+
+
+.owl-item img {
+    width: 120px;
+    height: 140px;
+}
+
+.bg-card {
+    background-image: url('/image/feature-bg.jpg');
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.bg-card::after {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    content: "";
+    background: rgba(0, 0, 0, 1);
+    top: 0;
+    left: 0;
+
+}
+
+
+.testi {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.testi img {
+    width: 100%;
+    height: 100%;
+}
+
+.own_class {
+    background: rgb(253, 234, 253) !important;
+}
+
+.bgpurple {
+    background: rgb(142, 26, 142);
+}
+
+.bgpurple ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #fff;
+
+}
+
+.bgpurple li {
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 50%;
+}
+
+.owl-item {
+    width: 128.906px;
+    margin-right: 10px;
+    background: powderblue;
+}
